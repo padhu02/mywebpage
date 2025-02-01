@@ -1,7 +1,7 @@
 /* General Styles */
 :root {
   --primary-color: #69636e;
-  --primary-color-dark: #615c66;
+  --primary-color-dark: #9333ea;
   --secondary-color: #ca8a04;
   --text-dark: #1f2937;
   --text-light: #6b7280;
@@ -164,6 +164,7 @@ ul li a:hover {
   color: #ffffff;
 }
 
+/* Image Section */
 .image {
   width: 35%;
   display: flex;
@@ -339,22 +340,26 @@ ul li a:hover {
   .section__container {
     padding: 10rem 1rem 5rem 1rem;
     text-align: center;
-    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column; /* Stack content vertically */
+  }
+
+  .content {
+    width: 100%; /* Full width for mobile */
+    order: 2; /* Move content below the image */
   }
 
   .image {
     width: 100%;
     justify-content: center;
     margin-top: 2rem;
+    order: 1; /* Move image to the top */
   }
+
   .image img {
     max-width: 200px; /* Smaller size for mobile */
-  }
-  .content {
-    width: 100%;
   }
 
   .action__btns {
     margin: auto;
   }
-}
+}sss
