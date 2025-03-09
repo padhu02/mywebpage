@@ -8,6 +8,8 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <title>Padmanapan</title>
   </head>
@@ -37,7 +39,7 @@
             I'm <span><strong>Padmanpan</strong><br />a</span> Master of Computer Science
           </h1>
           <p class="description">
-            I’m interested in web development and software development or designing, currently pursuing my Master’s in Computer Science. I specialize in front-end development, working with HTML, CSS, JavaScript, Python, and Java to build modern, responsive and user-friendly web applications. With a passion for clean code and intuitive design, I strive to create seamless digital experiences. I’m always eager to learn new technologies and improve my skills in web development. Let’s connect and build something amazing together!
+            I’m interested in web development and software development or designing, currently pursuing my Master’s in Computer Science. I specialize in front-end development, working with HTML, CSS, JavaScript, Python, and Java to build modern, responsive and user-friendly web applications. With a passion for clean code and understood design, I strive to create a digital experiences. I’m always eager to learn new technologies and improve my skills in web development. Let’s connect and build something amazing together!
           </p>
           <div class="action__btns">
             <button class="hire__me">Hire Me</button>
@@ -62,121 +64,186 @@
       </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section center-content">
-      <div class="section__container">
-        <div class="content">
-          <h2 class="title">Education</h2>
-          <ul class="education__list">
-            <li>
-              <h3>Master of Computer Science</h3>
-              <p>Periyar Maniammai Institute of Science and Technology, 2023 - 2025</p>
-              <p><strong>CGPA = 7.75</strong></p>
-            </li>
-            <li>
-              <h3>Bachelor of Computer Science</h3>
-              <p>AVVM Sri Pushpam College Poondi, Thanjavur, 2020 - 2023</p>
-              <p><strong>CGPA = 8.01</strong></p>
-            </li>
-            <li>
-              <h3>Higher Secondary Education</h3>
-              <p>St Antony's Higher Secondary School, Thanjavur, 2018</p>
-              <p><strong>Percentage = 70%</strong></p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+ <!-- Add Bootstrap CSS (if not already included) -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="section center-content">
-      <div class="section__container">
-        <div class="content">
-          <h2 class="title">Certifications</h2>
-          <div class="certifications__container">
-            <ul class="certifications__list">
-              <li><strong>C, C++</strong> - SSL Education Center</li>
-              <li><strong>Python</strong> - Besant Technologies</li>
-              <li><strong>HTML, CSS, JavaScript</strong> - Guvi Platform</li>
-              <li><strong>Java Programming</strong> - NPTEL in Swayam</li>
-            </ul>
+ <!-- Education Section -->
+ <section id="education" class="section text-center py-4">
+  <div class="container">
+    <h2 class="title mb-3">Education</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card p-2 shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title mb-1">Master of Computer Science</h6>
+            <p class="card-text mb-1">Periyar Maniammai Institute of Science and Technology</p>
+            <p class="text-muted small mb-1">2023 - 2025</p>
+            <p class="mb-0"><strong>CGPA: 7.91</strong></p>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section center-content">
-      <div class="section__container">
-        <div class="content">
-          <h2 class="title">Skills</h2>
-          <div class="skills__container">
-            <ul class="skills__list">
-              <li><strong>Technical Skills:</strong> Proficient in programming languages like Python, Java, C++, and relevant frameworks.</li>
-              <li><strong>Problem-Solving Approach:</strong> Ability to analyze complex problems, design efficient solutions, and translate them into code.</li>
-              <li><strong>Learning Agility:</strong> Eagerness to learn new technologies and adapt to evolving trends in the field.</li>
-              <li><strong>Teamwork:</strong> Experience working with others to brainstorm ideas and solve problems.</li>
-            </ul>
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card p-2 shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title mb-1">Bachelor of Computer Science</h6>
+            <p class="card-text mb-1">AVVM Sri Pushpam College Poondi, Thanjavur</p>
+            <p class="text-muted small mb-1">2020 - 2023</p>
+            <p class="mb-0"><strong>CGPA: 8.01</strong></p>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Languages Section -->
-    <section id="languages" class="section">
-      <div class="section__container">
-        <div class="content">
-          <h2 class="title">Languages</h2>
-          <ul class="languages__list">
-            <li><strong>Tamil</strong> - Native</li>
-            <li><strong>English</strong> - Fluent</li>
-          </ul>
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card p-2 shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title mb-1">Higher Secondary Education</h6>
+            <p class="card-text mb-1">St Antony's Higher Secondary School, Thanjavur</p>
+            <p class="text-muted small mb-1">2018</p>
+            <p class="mb-0"><strong>Percentage: 70%</strong></p>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+ </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-      <div class="section__container">
-        <div class="content">
-          <h2 class="title">Contact Me</h2>
-          <form class="contact__form">
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-          </form>
+ <!-- Add Bootstrap CSS (if not already included) -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ <!-- Certifications Section -->
+ <section id="certifications" class="section text-center py-2">
+  <div class="container">
+    <h2 class="title mb-4">Certifications</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-lg-3 mb-1">
+        <div class="card p-1 shadow-sm">
+          <div class="card-body p-2">
+            <h5 class="card-title">C, C++</h5>
+            <p class="card-text">SSL Education Center</p>
+          </div>
         </div>
       </div>
-    </section>
+      <div class="col-md-5 col-lg-3 mb-1">
+        <div class="card p-1 shadow-sm">
+          <div class="card-body p-2">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text">Besant Technologies</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-3 mb-1">
+        <div class="card p-1 shadow-sm">
+          <div class="card-body  p-2">
+            <h5 class="card-title">HTML, CSS, JavaScript</h5>
+            <p class="card-text">Guvi Platform</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-3 mb-1">
+        <div class="card p-1 shadow-sm">
+          <div class="card-body p-2">
+            <h5 class="card-title">Java Programming</h5>
+            <p class="card-text">NPTEL in Swayam</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
 
+ <!-- Add Bootstrap CSS (if not already included) -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ <!--skills-->
+ <section id="skills" class="section text-center py-2">
+  <div class="container">
+    <h2 class="title mb-2">Skills</h2>
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+      <div class="card p-1 shadow-sm" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Technical Skills</h5>
+          <p class="card-text">Proficient in HTML/CSS ,Python, C/C++, and relevant frameworks.</p>
+        </div>
+      </div>
+      <div class="card p-1 shadow-sm" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Problem-Solving Approach</h5>
+          <p class="card-text">Ability to analyze complex problems, design efficient solutions, and translate them into code.</p>
+        </div>
+      </div>
+      <div class="card p-1 shadow-sm" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Learning Agility</h5>
+          <p class="card-text">Eagerness to learn new technologies and adapt to evolving trends in the field.</p>
+        </div>
+      </div>
+      <div class="card p-1 shadow-sm" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Teamwork</h5>
+          <p class="card-text">Experience working with others to think up ideas and solve problems.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+
+   <!-- Languages Section -->
+ <section id="languages" class="section text-center py-3">
+  <div class="container-sm w50 w-md-75 mx-auto">
+    <h2 class="title mb-2">Languages</h2>
+    <div class="row justify-content-center g-0">
+      <div class="col-md-2 col-sm-6 mb-1 d-flex justify-content-center" >
+        <div class="card p-1 shadow-sm" style="width: 8rem; min-height: 50px; margin: 0; display: flex; align-items:center;justify-content: center;">
+          <div class="card-body p-1">
+            <h6 class="card-title mb-1">Tamil</h6>
+            <p class="card-text small">Native</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-6 mb-1 d-flex justify-content-center">
+        <div class="card p-1 shadow-sm" style="width: 8rem; min-height: 50px; margin: 0; display: flex; align-items:center; justify-content: center;">
+          <div class="card-body p-1">
+            <h6 class="card-title mb-1">English</h6>
+            <p class="card-text small">Fluent</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+ <!--contact section-->
+ <section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+      <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=padmanapananandan@gmail.com" target="_blank">padmanapananandan@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+      <p><a href="https://www.linkedin.com/in/padmanapan-a-041a6324b" target="_blank">LinkedIn Profile</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img src="assets/phone.jpg" alt="Phone icon" class="icon contact-icon" />
+      <p><a href="tel:+919345536641">+91 9345536641</a></p>
+    </div>
+  </div>
+ </section>
+    
     <!-- Footer Section -->
+    <section id="footer" class="section">
     <footer class="footer">
       <div class="footer__container">
-        <div class="footer__content">
-          <h3>Contact Details</h3>
-          <ul class="footer__contact-list">
-            <li>
-              <i class="ri-mail-line"></i>
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=padmanapananandan@gmail.com" target="_blank">padmanapananandan@gmail.com</a>
-            </li>
-            <li>
-              <i class="ri-phone-line"></i>
-              <a href="tel:+1234567890">+91 9345536641</a>
-            </li>
-            <li>
-              <i class="ri-linkedin-box-line"></i>
-              <a href="https://www.linkedin.com/in/padmanapan-a-041a6324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn Profile</a>
-            </li>
-          </ul>
-        </div>
         <div class="footer__bottom">
           <p>&copy; 2025 Padmanapan Anandhan. All rights reserved.</p>
           <a href="#home" class="footer__home-link">Back to Home</a>
         </div>
       </div>
     </footer>
-
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
+
